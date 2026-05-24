@@ -3,45 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Space</title>
+    <title>Sadew Prabhash</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <div class="profile-img"></div>
-            <h1 class="rgb-text">මම [ඔයාගේ නම]</h1>
-            <p>Digital Creator | Tech Enthusiast</p>
-        </header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#stats">Stats</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <section class="about">
-            <h3>මම ගැන</h3>
-            <p>මම අලුත් දේවල් ඉගෙන ගන්න ආස, නිර්මාණශීලී කෙනෙක්.</p>
-        </section>
+    <!-- Home Section -->
+    <section id="home" class="full-screen">
+        <h1 class="rgb-text">HELLO, I'M [sadew prabhash]</h1>
+        <p class="glitch-text">Welcome to my digital world.</p>
+        <a href="#about" class="scroll-down">⬇ Scroll Down</a>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="full-screen">
+        <div class="content-box">
+            <h2 class="neon-title">About Me</h2>
+            <p>මෙතන ඔයා ගැන ඕනෑම විස්තරයක් ලියන්න පුළුවන්. ඔයා කරන දේවල්, ඔයාගේ හීන වගේ දේවල් මෙතනට දාන්න.</p>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="full-screen">
+        <h2 class="neon-title">Social Reach</h2>
         <div class="stats-container">
             <div class="stat-card">
                 <h2 class="counter" data-target="5000">0</h2>
                 <p>Facebook</p>
             </div>
             <div class="stat-card">
-                <h2 class="counter" data-target="1200">0</h2>
-                <p>Instagram</p>
+                <h2 class="counter" data-target="12000">0</h2>
+                <p>TikTok</p>
             </div>
             <div class="stat-card">
-                <h2 class="counter" data-target="850">0</h2>
+                <h2 class="counter" data-target="2500">0</h2>
                 <p>YouTube</p>
             </div>
         </div>
+    </section>
 
+    <!-- Contact/Links Section -->
+    <section id="contact" class="full-screen">
+        <h2 class="neon-title">Connect With Me</h2>
         <div class="social-links">
             <a href="#" class="btn fb">Facebook</a>
-            <a href="#" class="btn ig">Instagram</a>
+            <a href="#" class="btn tt">TikTok</a>
             <a href="#" class="btn yt">YouTube</a>
         </div>
-    </div>
+        <footer style="margin-top: 50px; font-size: 0.8rem;">Created with ❤️ by [Your Name]</footer>
+    </section>
 
     <script src="script.js"></script>
 </body>
